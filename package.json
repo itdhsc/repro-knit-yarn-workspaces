@@ -4,11 +4,17 @@
   "version": "1.0.0",
   "description": "Reproduction for knit in yarn workspaces",
   "main": "index.js",
-
   "workspaces": [
     "workspace-a"
   ],
-
   "repository": "git@github.com:itdhsc/repro-knit-yarn-workspaces.git",
-  "author": "Hendrik Schuster <hendrik.schuster@itdesign.de>"
+  "author": "Hendrik Schuster <hendrik.schuster@itdesign.de>",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "knip": "^5.27.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "knip": "knip"
+  }
 }
