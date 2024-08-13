@@ -1,7 +1,14 @@
 {
-  "name": "test",
+  "private": true,
+  "name": "repro-knit-yarn-workspaces",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Reproduction for knit in yarn workspaces",
   "main": "index.js",
-  "license": "MIT"
+
+  "workspaces": [
+    "workspace-a"
+  ],
+
+  "repository": "git@github.com:itdhsc/repro-knit-yarn-workspaces.git",
+  "author": "Hendrik Schuster <hendrik.schuster@itdesign.de>"
 }
